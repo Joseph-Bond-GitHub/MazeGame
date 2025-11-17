@@ -11,6 +11,7 @@ public class IsaacUIV1{
         int columns = input.nextInt();
         
         System.out.println(displayMaze(rows, columns));
+        input.close();
     }
 
     public static String displayMaze(int rows, int columns){
